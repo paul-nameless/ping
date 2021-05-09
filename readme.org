@@ -1,0 +1,13 @@
+* Ping
+
+This is simple http server which responds only to one endpoint: /ping -> pong.
+
+It's done for demo and test purposes.
+
+Bind address and response can be modified via flags.
+
+** Run
+
+#+begin_src sh
+docker run -it --rm -p 8080:8080 ping -r custom-response
+#+end_src
