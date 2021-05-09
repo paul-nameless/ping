@@ -1,10 +1,10 @@
 * Ping
 
-This is simple http server which responds only to one endpoint: /ping -> pong.
+This is simple http server which responds only to one endpoint: =/ping -> pong=.
 
 It's done for demo and test purposes.
 
-Bind address and response can be modified via flags.
+=Bind address= and =response= can be modified via flags.
 
 ** Run
 
