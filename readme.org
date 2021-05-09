@@ -9,5 +9,5 @@ It's done for demo and test purposes.
 ** Run
 
 #+begin_src sh
-docker run -it --rm -p 8080:8080 ping -r custom-response
+docker run -it --rm -p 8080:8080 ping -r pong2
 #+end_src
